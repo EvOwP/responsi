@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/main"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:paddingHorizontal="10dp"
+    android:paddingTop="20dp"
+    tools:context=".LoginActivity">
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:layout_width="170dp"
+        android:background="@drawable/bg_button_primary"
+        android:backgroundTint="@color/grey_10"
+        android:layout_gravity="center"
+        android:padding="10dp"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="match_parent"
+            android:layout_height="150dp"
+            android:src="@drawable/img_customer"/>
+
+        <View
+            android:layout_width="0dp"
+            android:layout_height="10dp"/>
+
+        <TextView
+            android:id="@+id/tv_nama"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="18sp"
+            android:gravity="center"
+            android:textStyle="bold"
+            android:text="Nama"/>
+
+        <TextView
+            android:id="@+id/tv_asal_universitas"
+            android:layout_width="match_parent"
+            android:gravity="center"
+            android:layout_height="wrap_content"
+            android:text="Asal Universitas"/>
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Email"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_email"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_edit_text"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nama"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_nama"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_edit_text"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Nomor Telepon"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_nomor_hp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_edit_text"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="5dp"/>
+
+    <TextView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Alamat"
+        android:textColor="@color/black"
+        android:textSize="18sp"/>
+
+    <EditText
+        android:id="@+id/et_alamat"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:background="@drawable/bg_edit_text"/>
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="10dp"/>
+
+
+    <View
+        android:layout_width="0dp"
+        android:layout_height="50dp"/>
+
+    <Button
+        android:id="@+id/btn_change"
+        android:layout_width="300dp"
+        android:layout_height="wrap_content"
+        android:text="Ubah Profil"
+        android:textColor="@color/white"
+        android:background="@drawable/bg_button_primary"
+        android:textSize="35sp"
+        android:textAllCaps="false"
+        android:layout_gravity="center"
+        android:padding="@dimen/spacing_middle"/>
+
+</LinearLayout>
